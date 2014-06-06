@@ -1,0 +1,17 @@
+//Hack Reactor Admissions Challenge
+//Wade Wieringa
+var myArray = [];
+myArray = ["Wade Wieringa", "email@email.com"];
+
+function cutName (name){
+  var splitName = [];
+  splitName = name.split(" ");
+  return splitName;
+}
+
+var myData = { };
+myData.fullName = cutName(myArray[0]);
+myData.skype = myArray[1];
+myData.github = "wadewieringa";
+
+HackReactor.showApp()
